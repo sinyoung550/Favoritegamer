@@ -1,18 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.tlsdu.favoritegamer.MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_title"
+        android:textSize="20sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Check_select"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/check_lbl"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mag_puest"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_injae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_injae"
+            />
+        <RadioButton
+            android:id="@+id/radio_ryu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_ryu"
+            />
+        <RadioButton
+            android:id="@+id/radio_whoru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_whoru"
+            />
+        <RadioButton
+            android:id="@+id/radio_miro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_miro"
+            />
+        <RadioButton
+            android:id="@+id/radio_zunba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_zunba"
+            />
+        <RadioButton
+            android:id="@+id/radio_tobi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_tobi"
+            />
+        <RadioButton
+            android:id="@+id/radio_lunatic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gamer_lunatic"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/but_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bur_lbl"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/imgv_gamer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/injae"
+        android:visibility="invisible"
+        />
+    <!--invisible : 안보이게하는거 -->
+</LinearLayout>

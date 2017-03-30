@@ -5,6 +5,10 @@
     <string name="mag_puest">좋아하는 프로게이머는?</string>
     <string name="gamer_injae">밈재</string>
     <string name="gamer_ryu">류때지</string>
+    <string name="gamer_whoru">후루</string>
+    <string name="gamer_miro">공심하지마</string>
+    <string name="gamer_tobi">방장님</string>
+    <string name="gamer_zunba">듄바</string>
     <string name="gamer_lunatic">루나틱하이</string>
     <string name="bur_lbl">선택 완료</string>
 </resources>
