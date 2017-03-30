@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Favoritegamer</string>
+    <string name="msg_title">선택을 시작하시겠습니까?</string>
+    <string name="check_lbl">시작함</string>
+    <string name="mag_puest">좋아하는 프로게이머는?</string>
+    <string name="gamer_injae">밈재</string>
+    <string name="gamer_ryu">류때지</string>
+    <string name="gamer_lunatic">루나틱하이</string>
+    <string name="bur_lbl">선택 완료</string>
+</resources>
